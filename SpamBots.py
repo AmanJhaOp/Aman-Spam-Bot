@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [1904312233]
+SMEX_USERS = [5028658320]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("AA RAHA HU BSDK")
+                await event.edit("⚡️𝙒𝙀 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝙁𝙐𝘾𝙆 𝙂𝙍𝙊𝙐𝙋⚡️")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -356,7 +356,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("ℙℝ𝕀𝕍𝔸𝕋𝔼 ℝ𝔸ℕ𝔻𝕀 🤤")
+                await event.edit("𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝙆𝙄𝘿𝙕𝙕🤤")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤤GAND!\n`{ms}` ms\n⚔️NOBITA SPAM BOT E⚔️")
+        await event.edit(f"𝙃𝙄 𝘽𝘼𝘽𝙔 🖤!\n`{ms}` ms\n⚔️⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 𝙓 𝙎𝙋𝘼𝙈⚔️⚔️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nℝ𝕌𝕂 𝕄𝕌𝕋ℍ 𝕄𝔸ℝ𝕃𝕆 𝕋ℍ𝕆𝔻𝔸"
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n💀𝙅𝙐𝙎𝙏 𝙒𝘼𝙄𝙏 𝘽𝘼𝘽𝙔☠️"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
